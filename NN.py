@@ -50,7 +50,6 @@ class Network(object):
             
     def train(self, inputs, outputs, epoch):
         for i in range(epoch):
-            print("epoch:",i)
             self.feedForward(inputs)
             self.backPropagation(input,outputs)
 

@@ -26,6 +26,7 @@ net = NN.Network([784,128,10])
 for i, img in enumerate(X_train):
     img = img / 255.0 
     net.train(img,output[y_train[i]],epoch=20)
+    print("Train percent:{}%".format(int(i/img.shape[0])),end='\r')
 
 '''
 import matplotlib.pyplot as plt
