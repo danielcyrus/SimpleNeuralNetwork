@@ -1,5 +1,6 @@
 # SimpleNeuralNetwork
-Image classification with MNIST dataset and dynamic hidden layers
+<h4>Image classification with MNIST dataset and dynamic hidden layers</h4>
+This a sample of neural network implementation from scratch without any library.
 
 <p>Simply run <b>python3 runTest.py</b></p>
 <p>The progress will show you the percentage of 600000 mnist images:<br>
